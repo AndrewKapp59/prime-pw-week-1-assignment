@@ -1,11 +1,67 @@
 /* Give your page a fun background color */
+body {
+  background-color: #6495ed;
+}
 
 /* Make the header and footer a different color from the background */
-
 /* Align the h1 containing your name in the center of the header*/
+header {
+  background-image: url("https://t3.ftcdn.net/jpg/00/74/04/66/360_F_74046684_nfxl9VtPQwuTAqahg59AclumPaSVCtQp.jpg");
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+footer {
+  background-image: url("https://t3.ftcdn.net/jpg/00/74/04/66/360_F_74046684_nfxl9VtPQwuTAqahg59AclumPaSVCtQp.jpg");
+}
 
 /* Make your p tag a different color and italic */
+p {
+  color: #00008B;
+  font-style: italic;
+  text-align: center;
+}
 
 /* Put a border around your image */
+img {
+  border-color: black;
+  border-radius: 25%;
+  border-style: solid;
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  text-align: center;
+  width: 250px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 /* Change the font-family of your list */
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: inherit;
+}
+
+.container {
+  background-image: url("https://t3.ftcdn.net/jpg/00/74/04/66/360_F_74046684_nfxl9VtPQwuTAqahg59AclumPaSVCtQp.jpg");
+  border-radius: 32px;
+  margin: 3% 22.5%;
+  padding: 10px 75px 10px 75px;
+}
